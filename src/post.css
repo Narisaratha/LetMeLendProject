@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+* {
+  margin: 0;
+}
+
+.app {
+    position: relative;
+    background-color: #EBE5FD;
+   /* height: 100vh;*/
+    height: 100%;
+    width: inherit;
+    font-family: 'Kanit', sans-serif;
+    padding-bottom: 2%;
+  }
+.header {
+    position: sticky;
+}
+
+.title__header{
+    position: absolute;
+    font-size: 1.3rem;
+    float: left;
+    padding: 2%;
+    padding-left: 20%;
+}
+
+
+.bodypost{ 
+    
+    margin-top: 5%;
+    margin-left: 20%;
+    background-color: white;
+    width: 60%;
+    padding-bottom:2%;
+    border-radius: 60px;
+  }
+
+.col {
+    padding-left: 15%;
+}
+
+.head_post {   
+    padding-top: 3%;
+    margin-left: -10%;
+
+}
+
+.button {
+    margin-left: 10%;
+    margin-bottom: 5%;
+    padding-top: 1%;
+}
+
+
+.post_user_img {
+    float: left;
+    width: 8%;
+    border-radius: 50%;
+    margin: 2%;
+}
+.post_username {
+    font-size: 1.2rem;
+    padding-top: 2%;
+    padding-right: 1%;
+    float: left;
+
+}
+.post_rating {
+    font-size: 1rem;
+    padding-top: 2%;
+    padding-left: 2%;
+    color: rgba(211, 211, 19, 0.699);
+}
+
+.butchat {
+    float: left;
+    width: 10%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.butpro {
+    float: left;
+    width: 10%;
+    padding-right: 2%;
+}
+
+.post_img {
+   
+    padding-top: 2%;
+    margin-left: -20%;
+}
+
+.imgpost {
+    position: absolute;
+    border: 5px solid #EBE5FD;
+    border-radius: 20px;
+    margin-left: -2%;
+}
+.posttext {
+    position: relative;
+    margin-left: 10%;
+    padding-top: 100%;
+
+}
+
+.post_all {
+    margin-left: -25%;
+}
+
+.topicName {
+    font-size: 1.2rem;
+    width: 90%;
+    margin-left: -10%;
+    padding-top: 5%;
+}
+
+.price {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #FFE7FA;
+    width: 40%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.description{
+    width: 90%;
+    margin-left: -10%;
+    margin-bottom: 5%;
+}
+
+.desbody {
+    padding: 5%;
+    background-color: #EBE5FD;  
+}
+
+.butmode {
+    float: right;
+    margin-right: 60%;
+}

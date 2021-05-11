@@ -1,0 +1,15 @@
+.bodypost {
+    margin-left: 4%;
+    padding: 5%;
+}
+
+.post {
+    border: 25px;
+    text-align: left;
+    padding-bottom: 2%;
+}
+.bottom {
+    float: left;
+    width: 50%;
+    padding: 2%;
+}

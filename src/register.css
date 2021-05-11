@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+* {
+  margin: 0;
+}
+
+
+.app {
+  position: relative;
+  background-color: #EBE5FD;
+  height: 100vh;
+  /*height: 100%;*/
+  font-family: 'Kanit', sans-serif;
+  padding-bottom: 4%;
+}
+
+
+.register_body_head {
+  text-align: center;
+  color: #836CDF;
+  font-size: 3rem;
+  padding: 20px;
+  padding-bottom: 5px;
+}
+
+.register_body {
+  background-color: white;
+  width: 60%;
+  height: 80%;
+  padding-top: 2%;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+ 
+}
+.register_form {
+  margin-left: 5%;
+  margin-right: auto;
+}
+.name {
+  width: 60%;
+  float:left;
+  padding-right: 5%;
+  overflow: hidden;
+}
+
+.email {
+  width: 40%;
+  float:right;  
+  padding-right: 5%;
+  overflow: hidden;
+}
+
+.university {
+  width: 40%;
+  float:left;
+  padding-right: 5%;
+  padding-top: 2%;
+  overflow: hidden;
+}
+
+.department {
+  width: 30%;
+  float:left;
+  padding-right: 5%;
+  padding-top: 2%;
+  overflow: hidden;
+}
+
+.faculty {
+  width: 30%;
+  float:left;
+  padding-right: 5%;
+  padding-top: 2%;
+  overflow: hidden;
+}
+
+.studentID {
+  width: 50%;
+  float:left;
+  padding-right: 5%;
+  padding-top: 2%;
+  overflow: hidden;
+}
+
+.username {
+  width: 50%;
+  float: right;
+  padding-right: 5%;
+  padding-top: 2%;
+  overflow: hidden;
+}
+
+.contactNumber {
+  width: 50%;
+  float: left;
+  padding-right: 5%;
+  padding-top: 2%;
+  overflow: hidden;
+}
+
+.password {
+  width: 50%;
+  float: right;
+  padding-right: 5%;
+  padding-top: 2%;
+  overflow: hidden;
+}
+
+.address {
+  width: 50%;
+  float: left;
+  padding-right: 5%;
+  padding-top: 2%;
+  overflow: hidden;
+}
+
+.confirmpassword {
+  width: 50%;
+  float: right;
+  padding-right: 5%;
+  padding-top: 2%;
+  overflow: hidden;
+}
+
+.submit { 
+  float: right; 
+  padding-top: 2%;
+  padding-right: 5%;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}

@@ -1,15 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import 'bootstrap/dist/css/bootstrap.css';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+//import Post from './post'
+//import Login from './login'
+import Createpost2 from './createpost2';
+//import Home1 from './home1';
+//import Register from './register'
+
+    ReactDOM.render(
+      <React.StrictMode>
+      
+        <Createpost2 />
+       
+      </React.StrictMode>,
+      document.getElementById('root')
+    );
+ 
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

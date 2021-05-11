@@ -1,0 +1,30 @@
+.bodyex {
+    background-color: #EBE5FD;
+    margin-top: 3%;
+    border: white;
+    border-radius: 25px;
+    padding-bottom: 2%;
+}
+
+
+.head_icon {
+    padding-left: 3%;
+    padding-right: 2%;
+    float: left;
+}
+
+.textex {
+    text-align: left;
+    padding-top: 1%;
+    padding-left: 2%;
+    width: 40%;
+    font-size: 1.5rem;
+}
+
+.order {
+    text-align: left;
+    padding-top: 1%;
+    padding-left: 2%;
+    width: 90%;
+    font-size: 0.5em;
+}
