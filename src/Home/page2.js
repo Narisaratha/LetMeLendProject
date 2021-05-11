@@ -4,14 +4,20 @@ import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form,Button,Col,Nav } from 'react-bootstrap';
 import Express from './express'
-import Postall2 from './postall2'
+import Postall from './postall'
+import './postall.css'
 
 class Page2 extends Component {
     render() {
         return (
             <div>
+                <div className="page_body_ex">   
                 <Express/>
-                <Postall2/>
+                </div>  
+                <div className="page_body_post">
+                <Postall />
+                <Postall />
+                </div>
             </div>
         );
     }

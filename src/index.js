@@ -4,11 +4,11 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import reportWebVitals from './reportWebVitals';
 
-//import Post from './post'
-//import Login from './login'
+import Post from './post'
 import Createpost2 from './createpost2';
-//import Home1 from './home1';
-//import Register from './register'
+import Login from './login'
+import Home2 from './home2';
+import Register from './register'
 
     ReactDOM.render(
       <React.StrictMode>

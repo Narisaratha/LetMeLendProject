@@ -43,13 +43,13 @@
 }
 
 
-.login {
+.header1_login {
   float: left;
   margin-left: 15%;
   width: 7%;
 }
 
-.register {
+.header1_register {
   float: right;
   width: 8%;
   padding-top: 1%;

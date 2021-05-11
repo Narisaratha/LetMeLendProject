@@ -28,11 +28,10 @@ export default class Header1 extends Component {
                     </div>
                     </Form> 
 
-                        <div className="login">
+                        <div className="header1_login">
                         <Button  variant="outline-info" size="sm">ข้าสู่ระบบ</Button>
                         </div> 
-                        <div className="register">สมัครสมาชิก
-                        </div>  
+                        <div className="header1_register"><a href="/register"><font color="white">สมัครสมาชิก</font></a></div>  
              </div> 
                         
 

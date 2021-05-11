@@ -1,12 +1,13 @@
 //ก่อนล็อกอิน
 
 
-import Header1 from './Header2'
+import Header2 from './Header2'
+import ty from './Home/home_img/ty.jpg'
 import Page1 from './Home/page1'
 import Page2 from './Home/page2'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form,Button,Col,Nav,Tabs, Tab, Modal, Row, Card, Container } from 'react-bootstrap';
-import './home1.css';
+import './home2.css';
 const bootstrap = require('bootstrap')
 
 
@@ -16,9 +17,16 @@ function Home2() {
   
      <div className="app"> 
         <div>
-          <Header1/>
-        </div>   
-      <div className="body_head">
+          <Header2 />
+        </div> 
+        <Button className="createbutton">
+          <img className="imginbutton" src={ty} width='40%'></img>
+          <div className="textin_create">
+            <b>สร้างโพสต์</b>
+          </div>
+        </Button> 
+
+      <div className="home2_body_head">
       <Container>
                  <Row>
                      <Col>

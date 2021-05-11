@@ -6,82 +6,75 @@
 }
 
 
-.app {
+.create2_app {
   position: relative;
   background-color: #EBE5FD;
  /* height: 100vh;*/
- height: 100%;
+  height: 100%;
   font-family: 'Kanit', sans-serif;
   padding-bottom: 2%;
 }
 
-.app__header {
-    background-color: #836CDF;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 60px;
-    object-fit: contain;
-    color: white;
-    font-size: 2rem;
-  }
-  
-.text {
-    float: left;
-    width: 20%;
-    font-size: 2rem;
-  }
-
-.body_head {
+.create2_body_head {
   text-align: center;
   color: #836CDF;
   font-size: 3rem;
-  padding: 20px;
-  padding-bottom: 5px;
+  padding: 1%;
 }
 
-.body {
-  margin-left: 20%;
-  padding-bottom: 2%;
+.create2_body {
+  margin-left: auto;
+  margin-right: auto;
   background-color: white;
   width: 60%;
-  
-  padding-top: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-  /* padding-top: 2%; */
-  /* padding-bottom: 2%; */
-  /* padding-left: 2%; */
+  height: 100%;
+  padding: 2%;
   border-radius: 20px;
 }
 
-.topic {
-   
+
+.create2_topic {
+  margin-left: -40%;
+  width: 100%;
 }
 
-.item {
-    padding-top: 2%;
+.create2_item {
+  padding-top: 2%;    
+  margin-left: -40%;
 }
 
-.detail {
+.create2_detail {
     width: 50%;
     float:left;
     padding-right: 5%;
     padding-top: 2%;
 }
 
-.reward {
+.create2_reward {
     width: 50%;
     float:right;
     padding-right: 5%;
     padding-top: 2%;
 }
 
-.date {
+.create2_date {
     padding-top: 2%;
-    float:left;
+    float: left;
 }
 
-.place {
+.create2_getdate {
+  float: left;
+  width: 49%;
+  
+}
+
+.create2_givedate {
+  float: left;
+  width: 49%;
+  margin-left: 2%;
+}
+
+.create2_place {
     width: 50%;
     float:left;
     padding-right: 5%;
@@ -89,22 +82,24 @@
     padding-top: 2%;
 }
 
-.highlightPost {
+.create2_highlightPost {
     width: 50%;
     float:left;
     padding-right: 5%;
+    padding-top: 5%;
     padding-top: 2%;
-    padding-top: 2%;
+    color: #836CDF;
 }
 
-.warning {
+.create2_warning {
     color: red;
+    font-size: 0.5rem;
     padding-bottom: 5%;
   }
   
   
 
-.submit {
+.create2_submit {
     margin-left: 40%;
 
   }

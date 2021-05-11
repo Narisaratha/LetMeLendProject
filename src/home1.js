@@ -17,10 +17,11 @@ function Home1() {
         <div>
           <Header1/>
         </div>   
-      <div className="body_head">
+      <div className="home1_body_head">
       <Container>
                  <Row>
                      <Col>
+                     
                          <Tabs defaultActiveKey="Page1" 
                                id="controlled-tab-example">
                              <Tab eventKey="Page1" title="ขอยืม">
@@ -30,6 +31,7 @@ function Home1() {
                                  <Page2 />
                              </Tab>
                          </Tabs>
+                      
                      </Col>
                  </Row>
              </Container>
