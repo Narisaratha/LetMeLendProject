@@ -2,9 +2,10 @@
     background-color: #EBE5FD;
     width: 80%;
     border-radius: 25px;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
     margin-left: auto;
     margin-right: auto;
+    padding-right: 1%;
 }
 .ex_container {
     float: left;
@@ -30,15 +31,17 @@
 
 .order {
     margin-left: auto;
-    margin-right: auto;
-    float: left;
-    padding-left: 10%;
+    float: right;
+    padding-left: 1%;
     font-size: 1rem;
     width: 99%;
-
     scroll-snap-type: Y mandatory;
     overflow-y: scroll;
-    height: 16vh;
+    overflow-x: hidden;
+    height: 23vh;
+    padding-bottom: 2%;
+    background-color: #f7f7f8;
+    border-radius: 20px;
   }
 
 .order::before{
@@ -55,12 +58,13 @@
     position: relative;
     color: red;
     float: left;
-    width: 50%;
+    width: 60%;
+    font-size: 1rem;
 }
 .ex_getdate {
     position: relative;
     float: left;
-    width: 40%;
+    width: 30%;
     color: gray;
 }
 

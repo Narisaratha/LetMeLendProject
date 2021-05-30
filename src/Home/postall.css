@@ -1,21 +1,24 @@
-.bodypost {
-    padding: 2%;
-}
 
-.post {
+.card {
+    border-radius: 20px;
+}
+.img_card {
+    border-radius: 20px;
+}
+.postall_post {
     text-align: left;
     margin-top: 5%;
-    padding-left: 3%;
-    padding-right: 3%;
+    border-radius: 25px;  
+    margin-bottom: 5%;
 }
 
-.card_body {
-    width: 13rem;
+.postall_card_body {
+    width: 100%;
+    padding: 5%;
 }
 
 .postall_head {
     float: left;
-    padding-left: 5%;
     margin-top: -1%
 }
 
@@ -23,7 +26,6 @@
     float: left;
     width: 15%;
     border-radius: 50%;
-    margin-left: 3%;
 }
 
 .postall_username {
@@ -41,9 +43,10 @@
     text-decoration: none;
     float: left;
     margin-left: 10%;
+    margin-right: auto;
     margin-top: 2%;
 }
-.price_date {
+.postall_price_date {
     float: left;
     width: 100%;
     
@@ -52,7 +55,7 @@
     float: left;
     width: 30%;
     font-size: 1rem;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 2%;
     color: red;
     text-decoration: none;
@@ -60,27 +63,34 @@
 
 .postall_date {
     float: left;
-    width: 60%;
+    width: 65%;
     margin-top: 3%;
     font-size: 0.8rem;
     text-decoration: none;
 }
 
-.bottom {
+.postall_bottom {
     float: left;
     width: 100%;
     margin-top: 3%;
     margin-bottom: 5%;
 }
 
-.toget {
+.postall_toget {
     float: left;
-    width: 40%;
-    margin-left: 10%;
+    width: 55%;
+    margin-left: 2%;
     margin-right: 5%;
+    background-color: #836CDF;
+    border: #836CDF;   
+    border-radius: 20px;
 }
 
-.tochat {
+.postall_tochat {
     float: left;
     width: 35%;
+    background-color: #836CDF;
+    border: #836CDF;   
+    border-radius: 20px;
+
 }

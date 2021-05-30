@@ -11,8 +11,9 @@ import Test from './expressdb'
  function Express() {
 
     const price = "10"
-    const topicName = "ขอยืมหน่อยค้าาาาาาาาhhhhhhhhhhhhhhhhhhhhhhhาาาาา"
+    const topicName = "ขอยืมหน่อยค้าาาาาา1255235426565356656555าาาาา"
     const getdate = "10/05/2564"
+    const keyword = "ตุ๊กตา"
 
       return (
           
@@ -22,7 +23,7 @@ import Test from './expressdb'
                 <img className="ex_head_icon" src={expressicon} width='5%' />
                
                 <div className="textex">
-                ขอยืมเร่งด่วนพิเศษ
+                ขอยืมด่วน <i><font color="red">(ภายใน 24 ชม.)</font></i>
                </div>
                </div>
 
@@ -32,7 +33,7 @@ import Test from './expressdb'
                     <div className="exorder">
                         <Row>
                         <div className="ex_price"><Col><i>{price} บาท</i></Col></div>
-                        <div className="ex_topic"><Col><b><a href="#"><font color="red">{topicName}</font></a></b></Col></div>
+                        <div className="ex_topic"><Col><b><a href="#"><font color="red">{topicName}</font><font color="gray"><i>  ({keyword})</i></font></a></b></Col></div>
                         <div className="ex_getdate"><Col><i>วันที่ต้องการยืม {getdate}</i></Col></div>
                         </Row> 
                     </div>

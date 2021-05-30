@@ -8,14 +8,16 @@ import Post from './post'
 import Createpost2 from './createpost2';
 import Login from './login'
 import Home2 from './home2';
+import Home1 from './home1';
 import Register from './register'
+import { BrowserRouter } from "react-router-dom"
 
     ReactDOM.render(
-      <React.StrictMode>
+      <BrowserRouter>
       
-        <Createpost2 />
+        <Home1 />
        
-      </React.StrictMode>,
+      </BrowserRouter>,
       document.getElementById('root')
     );
  

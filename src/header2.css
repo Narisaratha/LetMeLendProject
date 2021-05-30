@@ -6,7 +6,7 @@
 }
 
 
-.app__header {
+.heder2_app__header {
     background-color: #836CDF;
     padding-left: 30px;
     padding-top: 10px;
@@ -16,48 +16,55 @@
     font-size: 2rem;
 }
   
-.text {
+.header2_text {
     float: left;
     width: 20%;
     font-size: 2rem;
+    text-decoration: none;
+    color: white;
 }
 
-.inputsearch {
+.heder2_inputsearch {
     width: 40%;
     float: left;
-    margin-top: 8px;
+    margin-top: 0.8%;
 }
 
-.submit {
-    width: 10%;
+.heder2_submit {
+    width: 5%;
     float: left;
-    margin-bottom: 8px;
+    margin-top: 0.8%; 
+    border: solid white;
+    color: white;
 }
 
-.header_user_img {
+.header2_user_img {
   border-radius: 50%;
   width: 20%;
 }
 
-.profileheader {
+.heder2_profileheader {
   float: left;
   width: 10%;
-  padding: 1%;
+  padding: 0.6%;
   background-color:#6756AB;
   border-radius: 20px;
-  margin-left: 13%;
+  border: solid #6756AB;
+  color: white;
+  margin-left: 18%;
 }
-.header_user_img {
+
+.header2_user_img {
   float: left;
   margin-right: 5%;
 }
-.header_username {
+.header2_username {
   float: left;
   font-size: 1rem;
 
 }
 
-.chatheader {
+.heder2_chatheader {
   float: right;
   width: 7%;
   padding: 2%;

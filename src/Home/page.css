@@ -1,12 +1,27 @@
 
-.page_body_post {
-    background-color: #EBE5FD;
-    border-radius: 25px;
+.page_body {
     margin-top: 5%;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: auto;
 }
 .page_body_ex {
     margin-top: 3%;
+}
+.rowpost {
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    background-color: #EBE5FD;
+    border-radius: 25px;
+  
+}
+
+.page_body_post {
+    float: left;
+    width: 33.3333333333333%;
+    margin-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
 }

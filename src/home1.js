@@ -1,5 +1,6 @@
 //ก่อนล็อกอิน
 import React from 'react'
+import {Link, Route, Switch} from 'react-router-dom'
 import Header1 from './Header1'
 import Page1 from './Home/page1'
 import Page2 from './Home/page2'
@@ -13,15 +14,14 @@ const bootstrap = require('bootstrap')
 function Home1() {
   
   return (
-     <div className="app"> 
+     <div className="home1_app"> 
         <div>
           <Header1/>
         </div>   
       <div className="home1_body_head">
       <Container>
                  <Row>
-                     <Col>
-                     
+                      
                          <Tabs defaultActiveKey="Page1" 
                                id="controlled-tab-example">
                              <Tab eventKey="Page1" title="ขอยืม">
@@ -31,8 +31,7 @@ function Home1() {
                                  <Page2 />
                              </Tab>
                          </Tabs>
-                      
-                     </Col>
+                    
                  </Row>
              </Container>
       </div>

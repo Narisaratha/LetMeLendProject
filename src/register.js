@@ -1,6 +1,7 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header'
+import {Link, Route, Switch} from 'react-router-dom'
 import { Form,Button,Col } from 'react-bootstrap';
 import './register.css';
 import React from 'react'
