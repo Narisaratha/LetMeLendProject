@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+* {
+  margin: 0;
+}
+
+
+.create3_app {
+  position: relative;
+  background-color: #EBE5FD;
+ /* height: 100vh;*/
+  height: 100%;
+  font-family: 'Kanit', sans-serif;
+  padding-bottom: 3%;
+}
+
+.create3_body_head {
+  text-align: center;
+  color: #836CDF;
+  font-size: 3rem;
+  padding: 1%;
+}
+
+.create3_body {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 60%;
+  height: 100%;
+  padding: 2%;
+  padding-bottom: 2%;
+  border-radius: 20px;
+}
+
+
+.create3_topic {
+  margin-left: -10%;
+  width: 100%;
+}
+
+.create3_item {
+  padding-top: 4%;    
+  margin-left: -10%;
+}
+
+.create3_detail {
+    width: 47%;
+    float:left;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+.create3_reward {
+    width: 20%;
+    float:left;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+.create3_date {
+    padding-top: 5%;
+    float: left;
+}
+
+.create3_getdate {
+  float: left;
+  width: 49%;
+  
+}
+
+.create3_givedate {
+  float: left;
+  width: 49%;
+  margin-left: 2%;
+}
+
+.create3_place {
+    width: 47%;
+    float:left;
+    padding-right: 5%;
+    margin-top: -3%;
+}
+
+
+
+.createbut3 {
+    margin-left: 15%;
+    margin-right: auto;
+    margin-top: 8%;
+    border-radius: 10px;
+    background-color: #836CDF;
+    border: #836CDF;
+    width: 20%;
+}
+
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }

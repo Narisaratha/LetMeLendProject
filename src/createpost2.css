@@ -34,13 +34,13 @@
 
 
 .create2_topic {
-  margin-left: -40%;
+  margin-left: -10%;
   width: 100%;
 }
 
 .create2_item {
   padding-top: 2%;    
-  margin-left: -40%;
+  margin-left: -10%;
 }
 
 .create2_detail {
@@ -51,8 +51,8 @@
 }
 
 .create2_reward {
-    width: 50%;
-    float:right;
+    width: 20%;
+    float: left;
     padding-right: 5%;
     padding-top: 2%;
 }
@@ -104,6 +104,15 @@
 
   }
 
+  .createbut2 {
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: 1%;
+    border-radius: 10px;
+    background-color: #836CDF;
+    border: #836CDF;
+    width: 20%;
+  }
 
 
 @media only screen and (max-width:800px) {

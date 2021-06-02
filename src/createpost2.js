@@ -87,11 +87,11 @@ function Createpost2() {
               </div>
             </Form.Group>
           </div>
-          <div className="create2_submit">
-            <Button size="lg" type="submit">
-              เผยแพร่โพสต์
+          
+            <Button className="createbut2" href="./createpost_db" size="lg" type="submit">
+              สร้างโพสต์
             </Button>
-          </div>
+      
         </Form>
       </div>
         {/* <img src={logo} className="App-logo" alt="logo" /> */}

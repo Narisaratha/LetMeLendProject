@@ -13,7 +13,7 @@ function Login() {
  return (
 
 <>
-      <div className="app">    
+      <div className="login_app">    
             <div >
               <Header />
             </div>
@@ -25,7 +25,7 @@ function Login() {
   <div className="login_body">       
       <Form>
         <div className="login_username">
-          <Form.Group as={Col} controlId="ีusername">
+          <Form.Group controlId="username">
                 <Form.Label>Username</Form.Label>
                 <Form.Control type="text" placeholder="Username" />
             </Form.Group>   
@@ -38,11 +38,11 @@ function Login() {
             </Form.Group>
         </div>
         <div className="login_submit">    
-            <Button variant="primary" type="submit">
+            <Button className="login_but" href="/login_db" variant="primary" type="submit">
                 เข้าสู่ระบบ
             </Button>
         </div>
-        </Form>
+      </Form>
 
   </div>
     </div>

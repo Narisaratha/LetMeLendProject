@@ -99,7 +99,7 @@ function Register() {
       </div>
 
       <div className="submit">
-        <Button size="lg"  type="submit">
+        <Button href="/home2" size="lg"  type="submit">
           สมัครสมาชิก
         </Button>
       </div>

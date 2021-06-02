@@ -16,7 +16,7 @@ export default class Header1 extends Component {
         return(
             <>
             <div className="app__header">
-                <Route></Route>   
+               
                  <Link to="/"><a className="text">ยืมหน่อย</a></Link> 
                        
                     <Form className="search1">
@@ -26,11 +26,11 @@ export default class Header1 extends Component {
                         </Form.Group>
                     </div>
                    
-                    <Link to="/submitsearch">
-                        <Button className="submit1" variant="outline-info"  type="submit" >
+                    
+                        <Button href="/search" className="submit1" variant="outline-info"  type="submit" >
                         ค้นหา
                         </Button>
-                    </Link>
+                
                     </Form> 
 
                         <div className="header1_login">
@@ -44,7 +44,7 @@ export default class Header1 extends Component {
                                 <a href="/register"><font color="white">สมัครสมาชิก</font></a>
                             </Link>
                         </div>  
-                    <Route />
+                   
              </div> 
            </>             
 
