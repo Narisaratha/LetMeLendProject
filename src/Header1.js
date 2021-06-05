@@ -10,9 +10,13 @@ import React, {Component, useState} from 'react'
 const bootstrap = require('bootstrap')
 
   
-export default class Header1 extends Component {
+function Header1()  {
+
+
+    const[searchInput,setsearchInput] = useState('')
+
+
    
-    render(){
         return(
             <>
             <div className="app__header">
@@ -52,7 +56,11 @@ export default class Header1 extends Component {
 
 
     }
-}
+
+    
+
+
+export default Header1;
 
 
 
