@@ -46,10 +46,10 @@ function Post() {
                
                 <div className="button">
                     <div className="butchat" >
-                    <Button size="sm" >แชท</Button>
+                    <Button href="/chat" size="sm" >แชท</Button>
                     </div>
                     <div className="butpro" >
-                    <Button size="sm">โปรไฟล์</Button>
+                    <Button href="/profile" size="sm">โปรไฟล์</Button>
                     </div>
                 </div>
                 </div>
@@ -84,7 +84,7 @@ function Post() {
                         </div>
                         
 
-                       <div className="butmode"><Button size="lg">{mode}</Button></div>
+                       <div className="butmode"><Button href="/comment_db" size="lg">{mode}</Button></div>
                         </div>
                         </Col>
 

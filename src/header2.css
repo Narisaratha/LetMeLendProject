@@ -30,12 +30,17 @@
     margin-top: 0.8%;
 }
 
-.heder2_submit {
+.header2_submit {
     width: 5%;
     float: left;
     margin-top: 0.7%; 
     border: solid white;
     color: white;
+}
+
+.header2_submit:hover {
+  background-color: white;
+  border-color: #6756AB;
 }
 
 .header2_user_img {

@@ -32,13 +32,13 @@ function Postall1() {
                 
                     <div className="postall_post">
                     <Card  className="card" style={{ width: '2rem' },{height: '100%'}}>
-                    <Card.Img className="img_card"  variant="top"  href="/post" src={imgpost} />
+                    <a href="/post"><Card.Img className="img_card"  variant="top"  src={imgpost} /></a>
                     <Card.Body>
 
                         <div className="postall_card_body">
                         <Card.Title>
                             <div className="postall_head">
-                                <img href="/profile" className="postall_userimg" src={ty} width='10%'></img>
+                                <a href="/profile"><img  className="postall_userimg" src={ty} width='10%'></img></a>
                                 <a className="postall_username" href="/profile"><font color="black">{username}</font></a>
                             </div>
                         </Card.Title>

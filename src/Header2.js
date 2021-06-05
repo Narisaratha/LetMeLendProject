@@ -25,7 +25,7 @@ export default class Header2 extends Component {
                         </Form.Group>
                     </div>
                    
-                        <Button href="/search" className="heder2_submit" variant="outline-info"  type="submit">
+                        <Button href="/search" className="header2_submit" variant="outline-info"  type="submit">
                         ค้นหา
                         </Button>
                   

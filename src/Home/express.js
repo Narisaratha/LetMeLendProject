@@ -33,28 +33,28 @@ import Test from './expressdb'
                     <div className="exorder">
                         <Row>
                         <div className="ex_price"><Col><i>{price} บาท</i></Col></div>
-                        <div className="ex_topic"><Col><b><a href="#"><font color="red">{topicName}</font><font color="gray"><i>  ({keyword})</i></font></a></b></Col></div>
+                        <div className="ex_topic"><Col><b><a href="/post"><font color="red">{topicName}</font><font color="gray"><i>  ({keyword})</i></font></a></b></Col></div>
                         <div className="ex_getdate"><Col><i>วันที่ต้องการยืม {getdate}</i></Col></div>
                         </Row> 
                     </div>
                     <div className="exorder">
                         <Row>
                         <div className="ex_price"><Col><i>{price} บาท</i></Col></div>
-                        <div className="ex_topic"><Col><b><a href="#"><font color="red">{topicName}</font></a></b></Col></div>
+                        <div className="ex_topic"><Col><b><a href="/post"><font color="red">{topicName}</font></a></b></Col></div>
                         <div className="ex_getdate"><Col><i>วันที่ต้องการยืม {getdate}</i></Col></div>
                         </Row> 
                     </div>
                     <div className="exorder">
                         <Row>
                         <div className="ex_price"><Col><i>{price} บาท</i></Col></div>
-                        <div className="ex_topic"><Col><b><a href="#"><font color="red">{topicName}</font></a></b></Col></div>
+                        <div className="ex_topic"><Col><b><a href="/post"><font color="red">{topicName}</font></a></b></Col></div>
                         <div className="ex_getdate"><Col><i>วันที่ต้องการยืม {getdate}</i></Col></div>
                         </Row> 
                     </div>
                     <div className="exorder">
                         <Row>
                         <div className="ex_price"><Col><i>{price} บาท</i></Col></div>
-                        <div className="ex_topic"><Col><b><a href="#"><font color="red">{topicName}</font></a></b></Col></div>
+                        <div className="ex_topic"><Col><b><a href="/post"><font color="red">{topicName}</font></a></b></Col></div>
                         <div className="ex_getdate"><Col><i>วันที่ต้องการยืม {getdate}</i></Col></div>
                         </Row> 
                     </div>  

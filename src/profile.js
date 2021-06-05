@@ -66,8 +66,10 @@ function Profile() {
 
        console.log(mode)
 
-       ////ต่อ
-   }
+       if(mode==='get') return (<Postall1 />)
+       if(mode==='give') return(<Postall2 />)
+    
+    }
 
     return (
         <div className="profile_app">

@@ -18,6 +18,7 @@ import Post from './post'
 import Profile from './profile'
 import Chat from './chat'
 import Login_db from './login_db'
+import Comment from './comment_db'
 
 import { BrowserRouter } from "react-router-dom"
 
@@ -37,6 +38,7 @@ const AppWithRouternotAuthen = () => (
     <Route path="/profile" component={Profile} />
     <Route path="/chat" component={Chat} />
     <Route path="/login_db" component={Login_db} />
+    <Route path="/comment_db" component={Comment} />
     </Switch>
   </BrowserRouter>
 )

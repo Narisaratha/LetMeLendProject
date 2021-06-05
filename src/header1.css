@@ -45,6 +45,11 @@
 
 }
 
+.submit1:hover {
+  background-color: white;
+  border-color: #6756AB;
+}
+
 
 .header1_login {
   float: left;
@@ -57,12 +62,22 @@
   color: white;
 }
 
+.login_button:hover {
+  background-color: #6756AB;
+  border-color: #6756AB;
+  color: white;
+}
+
 .header1_register {
   float: right;
   width: 8%;
   padding-top: 1%;
   font-size: 1rem;
   color: white;
+}
+
+.header1_register:hover {
+  color: #6756AB;
 }
 
 @media only screen and (max-width:800px) {

@@ -34,8 +34,8 @@
   margin-left: 20%;
   border: 8px solid  white;
   border-radius: 5px;
- 
-
+  height: 15%;
+  overflow: hidden;
 }
 
 .profile_center {
@@ -66,6 +66,11 @@
   background-color: #836CDF;
   border-radius: 10px;
   margin-top: 8%;
+}
+
+.profile_chat:hover {
+  background-color: #d1c3fa;
+  border-radius: 10px;
 }
 
 .profile_icon_chat {
@@ -99,10 +104,11 @@
 
 .profile_get {
   float: left;
-  width: 50%;
+  width: 49%;
   background-color: #836CDF;
   border-color: #836CDF;
   font-size: 1.5rem;
+  margin-right: 2%;
 }
 
 
@@ -113,7 +119,7 @@
 
 .profile_give {
   float: left;
-  width: 50%;
+  width: 49%;
   background-color: #836CDF;
   border-color: #836CDF;
   font-size: 1.5rem;
