@@ -6,7 +6,7 @@
 }
 
 
-.app {
+.register_app {
   position: relative;
   background-color: #EBE5FD;
   height: 100vh;
@@ -125,11 +125,24 @@
   overflow: hidden;
 }
 
-.submit { 
+.register_submit { 
   float: right; 
-  padding-top: 2%;
-  padding-right: 5%;
+  width: 30%;
+  margin-top: 2%;
+  margin-right: 10%;
+  background-color: #836CDF;
+  border-color: #836CDF;
+  border-radius: 20px;
 }
+
+.register_submit:hover {
+  background-color: #EBE5FD;
+  border-color: #EBE5FD;
+}
+
+
+
+
 
 @media only screen and (max-width:800px) {
   /* For tablets: */

@@ -5,14 +5,20 @@ import {Link, Route, Switch} from 'react-router-dom'
 import { Form,Button,Col } from 'react-bootstrap';
 import './register.css';
 import React from 'react'
+import { Component } from 'react';
 const bootstrap = require('bootstrap')
 
 
 
 
-function Register() {
+export default class Register extends Component {
+
+
+
+
+  render(){
   return (
-   <div className="app">
+   <div className="register_app">
             <div >
               <Header />
             </div>
@@ -98,12 +104,11 @@ function Register() {
       </Form.Group>
       </div>
 
-      <div className="submit">
-        <Button href="/home2" size="lg"  type="submit">
+     
+        <Button className="register_submit" href="/home2" size="lg"  type="submit">
           สมัครสมาชิก
         </Button>
-      </div>
-      </Form>
+     </Form>
       </div>
      </div>
 
@@ -112,6 +117,5 @@ function Register() {
   </div>
   );
 }
+}
 
-
-export default Register;
