@@ -21,6 +21,10 @@ function Createpost3() {
         <Row>
          <Col>
           เพิ่มรูป
+          <div className="create3_upload">
+          <input className="uploadimg_input" type="file" />
+          <button className="uploadimg" type="submit">Upload</button>
+          </div>
          </Col>
         <Col>
         <Row>

@@ -40,18 +40,27 @@
   margin-right: auto;
 }
 .name {
-  width: 60%;
+  width: 40%;
   float:left;
   padding-right: 5%;
   overflow: hidden;
 }
 
+.picture {
+  width: 30%;
+  float: right;
+  padding: 1%;
+  overflow: hidden;
+}
+
 .email {
-  width: 40%;
+  width: 30%;
   float:right;  
   padding-right: 5%;
   overflow: hidden;
 }
+
+
 
 .university {
   width: 40%;
@@ -73,7 +82,7 @@
   width: 30%;
   float:left;
   padding-right: 5%;
-  padding-top: 2%;
+  padding-top: 1%;
   overflow: hidden;
 }
 

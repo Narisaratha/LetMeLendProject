@@ -1,15 +1,19 @@
 //ขอยืม
 
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Home2 from '../home2'
 import { Form,Button,Col,Nav } from 'react-bootstrap';
 import Express from './express'
 import Postall1 from './postall1'
 import "./page.css"
 
 
-class Page1 extends Component {
-    render() {
+function Page1() {
+    
+    const[mode,setMode] = useState('get')
+
+    
         return (
             <div>  
                 <div className="page_body_ex">   
@@ -51,6 +55,6 @@ class Page1 extends Component {
             </div>
         );
     }
-}
+
 
 export default Page1;

@@ -59,4 +59,10 @@
 .login_but {
   background-color: #836CDF;
   border-color: #836CDF;
+  border-radius: 20px;
+}
+
+.login_but:hover{
+  background-color: #EBE5FD;
+  border-color: #EBE5FD;
 }

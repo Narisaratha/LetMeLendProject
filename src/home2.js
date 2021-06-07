@@ -12,7 +12,7 @@ const bootstrap = require('bootstrap')
 
 
 function Home2() {
-  
+
   return (
   
      <div className="home2_app"> 

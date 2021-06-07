@@ -44,6 +44,29 @@
   margin-left: -10%;
 }
 
+.create3_upload {
+  float: left;
+  width: 120%;
+  background-color: #EBE5FD;
+  border-radius: 20px;
+  padding: 10%;
+}
+
+.uploadimg_input {
+  float: left;
+  width: 70%;
+}
+.uploadimg{
+  float: left;
+  width: 30%;
+  margin-top: 2%;
+  background-color: #836CDF;
+  border-color: #836CDF;
+  border-radius: 10px;
+  color: white;
+}
+
+
 .create3_detail {
     width: 47%;
     float:left;
