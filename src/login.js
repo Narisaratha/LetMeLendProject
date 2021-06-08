@@ -1,52 +1,52 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import LoginForm from './loginForm';
+import Home2 from './home2';
 import Header from './Header'
 import {Link, Route, Switch} from 'react-router-dom'
 import { Form,Button,Col } from 'react-bootstrap';
 import './login.css';
-import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React ,{useState} from 'react'
 const bootstrap = require('bootstrap')
 
 
 
 
+
 function Login() {
+  const exUser = {
+    username: "Narinaja",
+    password: "12345"
+  }
+
+  const [user,setUser] = useState ({username:"", password:""});
+  const [error , setError] = useState("");
+
+  const Login = details => {
+    console.log(details);
+  
+    if(details.username == exUser.username && details.password == exUser.password){
+    console.log("Logged in");
+      setUser({
+        username: details.name,
+        password: details.password
+      });
+
+    } else {
+      console.log("Details do not match!")
+      setError("ไม่มีบัญชีนี้อยู่ในระบบ กรุณาลองใหม่อีกครั้ง!")
+    }
+  }
+
  return (
 
-<>
-      <div className="login_app">    
-            <div >
-              <Header />
-            </div>
-            <div className="login_body_head">
-            ยืมหน่อย
-            </div>
-       
 
-  <div className="login_body">       
-      <Form>
-        <div className="login_username">
-          <Form.Group controlId="username">
-                <Form.Label>Username</Form.Label>
-                <Form.Control type="text" placeholder="Username" />
-            </Form.Group>   
-        </div> 
-
-        <div className="login_password"> 
-            <Form.Group controlId="password">
-                <Form.Label>Password</Form.Label>
-                <Form.Control type="password" placeholder="Password" />
-            </Form.Group>
-        </div>
-        <div className="login_submit">    
-            <Button className="login_but" href="/login_db" variant="primary" type="submit">
-                เข้าสู่ระบบ
-            </Button>
-        </div>
-      </Form>
-
+  <div className="App">
+    {( user.username != "" ) ? (
+      <Home2 />
+    ) : (
+      <LoginForm Login={Login} error={error} />
+    ) }
   </div>
-    </div>
-</>
 
   );
 }

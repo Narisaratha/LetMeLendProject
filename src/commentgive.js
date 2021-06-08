@@ -7,22 +7,31 @@ import './post.css'
 
 import testimg from './Home/home_img/testimg.jpg'
 import ty from './Home/home_img/ty.jpg'
+import cal from './Home/home_img/cal.jpeg'
+import './commentgive.css'
 
 
 const bootstrap = require('bootstrap')
 
-function Post() {
-    const mode = "ขอยืม"
-    const topicName = "ยืมตุ๊กตาไปกอดเล่นคืนนี้หน่อยสิคะตัวเอง"
-    const price = "10"
-    const description = "บลาๆๆๆๆาดาป่ือ่า่าิอแ้ปาีกเ้อแ่ืแาก่านเด้รีิอ้แก่ืพะท้านิ รแีป้ำิพะ ้ทิงาอฉฏง้วำฟพ่ใทอืาด่้่อกา่แร"
-    const userimg = ty
-    const username = "renebaebae"
-    const ratingPoint = "3.1"
-    const imgpost = testimg
-    const getdate = "10/05/64"
-    const givedate = "18/05/64"
-    const place = "ทิวสน"
+function Commentgive() {
+    
+const topicName5 = "ขอยืมเครื่องคิดเลขหน่อยค่ะ"
+const itemName5 = "เครื่องคิดเลข"
+const description5 = "ขอเครื่องคิดเลขที่หาค่าพาย รูท ln ได้ค่ะ"
+const postID5 = "3422"
+const reward5 = "10"
+const getdate5 = "04/06/2564"
+const givedate5 = "07/06/2564"
+const place5 = "หอใน C3 ธรรมศาสตร์ รังสิต"
+const mode = "ขอยืม"
+
+const username1 = "Narinaja"
+const username2 = "Mintzaa"
+const username3 = "Aumei"
+const username4 = "Nt123"
+const username5 = "Jkjk"
+
+const comment = "เสนอให้คุณยืม"
 
     const[commemt,setComment] = useState('')
     
@@ -35,7 +44,7 @@ function Post() {
         </div>
         
         <div className="title__header">
-            {mode} - {topicName}    
+            {mode} - {topicName5}    
         </div>    
 
 
@@ -43,9 +52,8 @@ function Post() {
             <div className="col">
             <Row >
                 <div className="head_post">
-                        <img className="post_user_img" src={userimg} />
-                        <div className="post_username">{username}</div>
-                        <div className="post_rating">(Rating : {ratingPoint})</div>
+                        <img className="post_user_img" src={ty} />
+                        <div className="post_username">{username1}</div>
                
                 <div className="button">
                     <div className="butchat" >
@@ -62,11 +70,11 @@ function Post() {
                 
                         <Col>
                         <div className="post_img">
-                        <img className="imgpost" src={imgpost} width='20%'/>
+                        <img className="imgpost" src={cal} width='20%'/>
                         <div className="posttext">
-                        <b>ต้องการยืมวันที่ </b> <i>{getdate}</i><br></br>
-                        <b>วันที่คืน </b><i>{givedate}</i><br></br>
-                        <b>สถานที่แลกเปลี่ยน </b><i>{place} </i>   
+                        <b>ต้องการยืมวันที่ </b> <i>{getdate5}</i><br></br>
+                        <b>วันที่คืน </b><i>{givedate5}</i><br></br>
+                        <b>สถานที่แลกเปลี่ยน </b><i>{place5} </i>   
                         </div>
                         </div>
                         </Col>
@@ -74,15 +82,15 @@ function Post() {
                         <Col>
                         <div className='post_all'>
                         <div className="topicName">
-                           <b>{topicName}</b>
+                           <b>{topicName5}</b>
                         </div>
                         <div className="price">
-                            <b>{price} บาท </b>
+                            <b>{reward5} บาท </b>
                         </div>
                         <div className="description">
                            <i> รายละเอียดเพิ่มเติม</i>
                             <div className="desbody">  
-                            {description}
+                            {description5}
                             </div>
                         </div>
                         
@@ -102,9 +110,14 @@ function Post() {
                 </button></div>
             </div>
             </Row>
+            <div className="comment_post">
+
+                Narinaja : "{comment}" "{itemName5}"
+            </div>
+
             </div>
         </div>
       </div> 
     );
 }
-  export default Post;
+  export default Commentgive;

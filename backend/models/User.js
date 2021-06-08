@@ -29,11 +29,36 @@ let userSchema = new Schema({
     },
     password: {
         type: String
-    },confirmpassword: {
+    },
+    confirmpassword: {
         type: String
     },
     address: {
         type: String
+    },
+    topicName: {
+        type: String
+    },
+    itemName: {
+        type: String
+    },
+    description: {
+        type: String
+    },
+    postID: {
+        type: String
+    },
+    reward: {
+        type: String
+    },
+    typeexpress: {
+        type: Boolean
+    },
+    mode: {
+        type: String
+    },
+    commemt: {
+        type:String
     }
 }, {
     collection: "user"

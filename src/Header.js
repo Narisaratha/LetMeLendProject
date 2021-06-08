@@ -13,7 +13,7 @@ export default class Header extends Component {
           
                 <div className="app__header">
                     
-                    <Link to="/"><a className="text">ยืมหน่อย</a></Link>                 
+                    <Link to="/home2"><a className="text">ยืมหน่อย</a></Link>                 
              </div> 
                
         )

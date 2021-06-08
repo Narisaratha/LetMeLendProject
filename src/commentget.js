@@ -7,22 +7,32 @@ import './post.css'
 
 import testimg from './Home/home_img/testimg.jpg'
 import ty from './Home/home_img/ty.jpg'
+import catBag from './Home/home_img/catBag.jpeg'
+import './commentgive.css'
 
 
 const bootstrap = require('bootstrap')
 
-function Post() {
-    const mode = "ขอยืม"
-    const topicName = "ยืมตุ๊กตาไปกอดเล่นคืนนี้หน่อยสิคะตัวเอง"
-    const price = "10"
-    const description = "บลาๆๆๆๆาดาป่ือ่า่าิอแ้ปาีกเ้อแ่ืแาก่านเด้รีิอ้แก่ืพะท้านิ รแีป้ำิพะ ้ทิงาอฉฏง้วำฟพ่ใทอืาด่้่อกา่แร"
+function Commentgive() {
+    
     const userimg = ty
-    const username = "renebaebae"
-    const ratingPoint = "3.1"
-    const imgpost = testimg
-    const getdate = "10/05/64"
-    const givedate = "18/05/64"
-    const place = "ทิวสน"
+    const imgpost = catBag
+    const username = "JKloveU"
+    const mode = "ให้ยืม"
+
+    const topicName = "ให้เช่ากระเป๋าแมว"
+    const itemName = "กระเป๋าแมว"
+    const description = "แบบใสได้มาตรฐาน"
+    const postID = "0410"
+    const reward = "3"
+    const getdate = "09/06/2564"
+    const givedate = "12/06/2564"
+    const place = "interzone"
+    
+    const date = getdate
+    const typedate = "ให้ยืมวันที่"
+
+const comment = "ต้องการยืม"
 
     const[commemt,setComment] = useState('')
     
@@ -43,9 +53,8 @@ function Post() {
             <div className="col">
             <Row >
                 <div className="head_post">
-                        <img className="post_user_img" src={userimg} />
+                        <img className="post_user_img" src={ty} />
                         <div className="post_username">{username}</div>
-                        <div className="post_rating">(Rating : {ratingPoint})</div>
                
                 <div className="button">
                     <div className="butchat" >
@@ -62,7 +71,7 @@ function Post() {
                 
                         <Col>
                         <div className="post_img">
-                        <img className="imgpost" src={imgpost} width='20%'/>
+                        <img className="imgpost" src={catBag} width='20%'/>
                         <div className="posttext">
                         <b>ต้องการยืมวันที่ </b> <i>{getdate}</i><br></br>
                         <b>วันที่คืน </b><i>{givedate}</i><br></br>
@@ -77,7 +86,7 @@ function Post() {
                            <b>{topicName}</b>
                         </div>
                         <div className="price">
-                            <b>{price} บาท </b>
+                            <b>{reward} บาท </b>
                         </div>
                         <div className="description">
                            <i> รายละเอียดเพิ่มเติม</i>
@@ -102,9 +111,14 @@ function Post() {
                 </button></div>
             </div>
             </Row>
+            <div className="comment_post">
+
+                Narinaja : "{comment}" "{itemName}"
+            </div>
+
             </div>
         </div>
       </div> 
     );
 }
-  export default Post;
+  export default Commentgive;

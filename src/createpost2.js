@@ -99,7 +99,7 @@ export default class Createpost2 extends Component {
       mode: this.state.mode
     }
 
-    axios.post('http://localhost:4000/app/post', created)
+    axios.post('http://localhost:4000/user/create-user', created)
       .then(response => console.log(response.data))
 
       this.setState({
@@ -134,13 +134,14 @@ export default class Createpost2 extends Component {
             
           </div>
         <Row>
-         <Col>
-          เพิ่มรูป
+         
+          
           <div className="create2_upload">
+          เพิ่มรูปภาพ
           <input className="uploadimg_input" type="file" />
           <button className="uploadimg" type="submit">Upload</button>
           </div>
-         </Col>
+         
         <Col>
         <Row>
           <div className="create2_topic">

@@ -6,7 +6,7 @@ import expressicon from './home_img/expressicon.svg'
 import './postall.css'
 import testimg from './home_img/testimg.jpg'
 import ty from './home_img/ty.jpg'
-import toy from './home_img/toy.jpeg'
+import sho from './home_img/sho.jpeg'
 
 
 
@@ -80,26 +80,26 @@ return (
                
                    <div className="postall_post">
                    <Card  className="card" style={{ width: '2rem' },{height: '100%'}}>
-                   <a href="/post"><Card.Img className="img_card"  variant="top"  src={toy} /></a>
+                   <a href="/post"><Card.Img className="img_card"  variant="top"  src={sho} /></a>
                    <Card.Body>
 
                        <div className="postall_card_body">
                        <Card.Title>
                            <div className="postall_head">
                                <a href="/profile"><img  className="postall_userimg" src={ty} width='10%'></img></a>
-                               <a className="postall_username" href="/profile"><font color="black">{username2}</font></a>
+                               <a className="postall_username" href="/profile"><font color="black">{username5}</font></a>
                            </div>
                        </Card.Title>
 
                        
                        <Card.Text>
-                          <a className="postall_topic" href="/post"><font color="black"><b>{topicName1}</b></font></a>
+                          <a className="postall_topic" href="/post"><font color="black"><b>{topicName2}</b></font></a>
                        </Card.Text>
 
                        <Card.Text>
                            <div className="postall_price_date">
-                          <a className="postall_price"><b>{reward1} บาท</b></a>
-                          <a className="postall_date"><b>ต้องการยืมวันที่ {getdate1}</b></a>
+                          <a className="postall_price"><b>{reward2} บาท</b></a>
+                          <a className="postall_date"><b>ต้องการยืมวันที่ {getdate2}</b></a>
                           </div>
                        </Card.Text>
                        </div>

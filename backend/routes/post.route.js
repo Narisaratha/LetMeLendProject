@@ -3,13 +3,12 @@ let mongoose = require('mongoose'),
     router = express.Router();
 
 
+    // post model
+let postSchema = require('../models/Post')
 
-    // User model
-let userSchema = require('../models/User')
-
-//Create User
-router.route('/create-user').post((req, res, next) => {
-    userSchema.create(req.body, (error, data) =>{
+//Create post
+router.route('/create-post').post((req, res, next) => {
+    postSchema.create(req.body, (error, data) =>{
     if (error) {
         return next(error);
     }else {
@@ -19,9 +18,9 @@ router.route('/create-user').post((req, res, next) => {
     })
 })
 
-//Read User
-router.route('/').get((req, res) => {
-    userSchema.find((error, data) => {
+//Read post
+router.route('/').get((rea, res) => {
+    postSchema.find((error, data) => {
         if(error) {
             return next(error);
         }else{
@@ -30,9 +29,9 @@ router.route('/').get((req, res) => {
     })
 })
 
-//Get single user
-router.route('/edit-user/:studentid').get((req, res) => {
-    userSchema.findById(req.params.studentid, (error, data) => {
+//Get single post
+router.route('/edit-post/:studentid').get((req, res) => {
+    postSchema.findById(req.params.studentid, (error, data) => {
         if(error) {
             return next(error);
         }else{
@@ -41,9 +40,9 @@ router.route('/edit-user/:studentid').get((req, res) => {
     })
 })
 
-//Updata user
-router.route('/update-user/:studentid').put((req, res, next) => {
-    userSchema.findByIdAndUpdate(req.params.stusentid, {
+//Updata post
+router.route('/update-post/:studentid').put((req, res, next) => {
+    postSchema.findByIdAndUpdate(req.params.stusentid, {
         $set: req.body
     }, (error, data) => {
         if(error) {
@@ -51,14 +50,14 @@ router.route('/update-user/:studentid').put((req, res, next) => {
             console.log(error);
         }else{
             res.json(data);
-            console.log("User updated success fully");
+            console.log("post updated success fully");
         }
     })
 })
 
-//Delete user
-router.route('/delete-user/:studentid').delete((req, res, next) => {
-    userSchema.findByIdAndRemove(req.params.studentid, (error,data) => {
+//Delete post
+router.route('/delete-post/:studentid').delete((req, res, next) => {
+    postSchema.findByIdAndRemove(req.params.studentid, (error,data) => {
         if(error) {
             return next(error);
         }else{

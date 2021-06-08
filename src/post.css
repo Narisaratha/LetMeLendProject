@@ -135,6 +135,24 @@
     margin-bottom: 5%;
 }
 
+.commentCard{
+    padding-top: 5%;
+}
+
+.comment-area{
+    width: 80%;
+    float: left;
+    padding-right: 4%;
+    overflow: hidden;
+}
+
+.send-btn{
+    width: 10%;
+    float: right;
+    margin-right: 8%;
+    overflow: hidden;
+}
+
 .desbody {
     padding: 5%;
     background-color: #EBE5FD;  

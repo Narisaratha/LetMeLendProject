@@ -46,17 +46,18 @@
 
 .create3_upload {
   float: left;
-  width: 120%;
+  width: 40%;
   background-color: #EBE5FD;
   border-radius: 20px;
-  padding: 10%;
+  padding: 5%;
+  margin-left: 2%;
 }
 
-.uploadimg_input {
+.create3_uploadimg_input {
   float: left;
   width: 70%;
 }
-.uploadimg{
+.create3_uploadimg{
   float: left;
   width: 30%;
   margin-top: 2%;

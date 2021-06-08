@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+* {
+  margin: 0;
+}
+
+
+.createpost_app {
+  position: relative;
+  background-color: #EBE5FD;
+  height: 100vh;
+  /*height: 100%;*/
+  font-family: 'Kanit', sans-serif;
+  padding-bottom: 4%;
+}
+
+.createpost_head_app{
+    text-align: center;
+  color: #836CDF;
+  font-size: 3rem;
+  padding: 15%;
+  margin-top: -10%;
+}
+
+.createpost_head_body_app{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 5%;
+    font-size:1.3rem;
+    border-radius: 25px;
+    margin-top: 5%;
+    padding-bottom: 10%;
+}
+
+.createpost_body1_app{
+    float: left;
+    width: 42%;
+    margin-left: 8%; 
+    margin-top: -10%;
+    background-color: #836CDF;
+}
+
+.createpost_body2_app{
+    float: left;
+    width: 42%;   
+    margin-left: 5%; 
+    margin-top: -10%;
+    background-color: #836CDF;
+    
+    
+}
+
+.createpost_body1_app:hover {
+background-color: #EBE5FD;
+color: #836CDF;
+}
+.createpost_body2_app:hover {
+background-color: #EBE5FD;
+color: #836CDF;
+}
+    

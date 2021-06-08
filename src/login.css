@@ -66,3 +66,11 @@
   background-color: #EBE5FD;
   border-color: #EBE5FD;
 }
+ 
+
+.error{
+  color: red;
+  font-size: 1rem;
+  margin-left: 20%;
+  margin-top: 2%;
+}

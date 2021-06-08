@@ -6,6 +6,10 @@ import Home2 from '../home2'
 import { Form,Button,Col,Nav } from 'react-bootstrap';
 import Express from './express'
 import Postall1 from './postall1'
+import Postall12 from './postall1 2'
+import Postall13 from './postall1 3'
+import Postall14 from './postall1 4'
+import Postall15 from './postall1 5'
 import "./page.css"
 
 
@@ -25,31 +29,19 @@ function Page1() {
                 <Postall1 />
                 </div>
                 <div className="page_body_post">
-                <Postall1 />
+                <Postall12 />
                 </div>
                 <div className="page_body_post">
-                <Postall1 />
+                <Postall13 />
                 </div>
 
                 <div className="page_body_post">
-                <Postall1 />
+                <Postall14 />
                 </div>
                 <div className="page_body_post">
-                <Postall1 />
+                <Postall15 />
                 </div>
-                <div className="page_body_post">
-                <Postall1 />
-                </div>
-
-                <div className="page_body_post">
-                <Postall1 />
-                </div>
-                <div className="page_body_post">
-                <Postall1 />
-                </div>
-                <div className="page_body_post">
-                <Postall1 />
-                </div>
+               
                 </div>
                 </div>
             </div>

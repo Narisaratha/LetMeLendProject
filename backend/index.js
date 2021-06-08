@@ -6,6 +6,7 @@ let express = require('express'),
 
     // Express Route
     const userRoute = require('../backend/routes/user.route');
+    
 
     // Connecting mongodb Database
     mongoose.Promise = global.Promise;
@@ -26,6 +27,9 @@ let express = require('express'),
     }))
     app.use(cors());
     app.use('/user', userRoute);
+
+    
+   
 
     // Port
     const port = process.env.PORT || 4000;
